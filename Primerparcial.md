@@ -413,10 +413,10 @@ class User:
         return f"ID: {self.id}\nNOMBRE: {self.name}\nAÑO: {self.age}"
 
 if __name__ == "__main__":
-    usuario1 = User("1","EMMANUEL",25)
-    usuario2 = User("2","HEBER",25)
-    usuario3 = User("3","FIGUEROA",25)
-    usuario4 = User("4","RODRIGUEZ",25)
+    usuario1 = User("1","CARLOS",25)
+    usuario2 = User("2","ALEJANDRO",25)
+    usuario3 = User("3","BARAJAS",25)
+    usuario4 = User("4","CORTES",25)
     usuarios = [usuario1,usuario2,usuario3,usuario4]
     for usuario in usuarios:
         print(usuario.show_data())
